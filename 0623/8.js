@@ -1,4 +1,4 @@
-// 직각삼각형 출력하기
+// 덧셈식 출력하기
 const readline = require('readline');
 const rl = readline.createInterface({
     input: process.stdin,
@@ -10,9 +10,7 @@ let input = [];
 rl.on('line', function (line) {
     input = line.split(' ');
 }).on('close', function () {
-    let str = '';
-    for(let i = 0; i< Number(input); i++){
-        str += '*';
-        console.log(str);
-    }
+    let a = input[0];
+    let b = input[1];
+    console.log(a + " + " + b + " = " + (Number(input[0]) + Number(input[1])))
 });

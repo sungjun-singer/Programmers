@@ -1,3 +1,4 @@
+// 주사위의 개수
 function solution(box, n) {
     var answer = 1;
     
