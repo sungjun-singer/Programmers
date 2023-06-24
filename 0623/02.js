@@ -5,6 +5,5 @@ function solution(box, n) {
     for(let i = 0; i<box.length; i++){
         answer *= parseInt((box[i]/n));
     }
-    
     return answer;
 }
