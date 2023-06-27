@@ -1,7 +1,7 @@
 let options = {
-    title : "SpiderMan",
-    year : 2023,
-    fun : true
+    'a' : "SpiderMan",
+    'b' : 2023,
+    'c' : true
 }
 
-let {...rest} = options;
+console.log(options.a);
