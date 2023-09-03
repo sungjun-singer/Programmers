@@ -8,3 +8,7 @@ function solution(l, r) {
     }
     return result.length === 0 ? [-1] : result
 }
+
+let arr = [1,2,3];
+
+arr.some
