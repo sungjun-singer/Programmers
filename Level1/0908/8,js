@@ -1,0 +1,15 @@
+// 이상한 문자 만들기
+function solution(s) {
+    const arr = s.split(" ");
+    let res = [];
+    arr.forEach((element) => {
+        let temp = '';
+        for(let i = 0; i<element.length; i++){
+            if(i % 2 === 0) temp += element[i].toUpperCase();
+            else temp += element[i].toLowerCase();
+        }
+        res.push(temp);
+        
+    })
+    return res.join(" ");
+}
